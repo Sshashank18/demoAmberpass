@@ -1,0 +1,15 @@
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    padding:10px;
+    color: #99A6B5;
+}
+
+.nav-container:hover{
+    cursor: pointer;
+}
+
+.selected{
+    background-color: #382BDB;
+    color: white;
+}

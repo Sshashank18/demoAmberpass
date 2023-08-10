@@ -1,0 +1,119 @@
+.mycontainer{
+    height:800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F1F4F9;
+    padding-left: 370px;
+    margin-left: unset;
+    padding-top: 20px;
+}
+
+.container-top{
+    margin-top:20px;
+    height:360px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+}
+
+.top-left{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-right:30px;
+}
+
+.top-right{
+    height:300px;
+    width: 500px;
+    background-color: white;
+}
+
+.rightHead{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rightCol{
+    display: flex;
+    flex-direction:  row;
+    justify-content: space-between;
+}
+
+.left{
+    width:210px;
+    height:70px;
+    text-align: left;
+    margin-left: 15px;
+    padding-left:20px;
+    border: 1px solid #d2d4d7;
+}
+.right{
+    width:210px;
+    height:70px;
+    text-align: left;
+    margin-right: 15px;
+    padding-left: 20px;
+    border: 1px solid #d2d4d7;
+
+}
+
+.income{
+    height:117px;
+    width: 300px;
+    text-align: left;
+    padding-left: 14px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.users{
+    height:215px;
+    width: 300px;
+    text-align: left;
+    padding-left: 14px;
+    background-color: white;
+}
+
+.container-bottom{
+    height:250px;
+    width: 800px;
+}
+
+.transactions{
+    width: 800px;
+    background-color: white;
+}
+
+.transactions-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.head2{
+    text-align: left;
+    margin-left:15px;
+}
+
+.percentLine{
+    height:5px;
+    width:300px;
+    display: flex;
+    flex-direction: row;
+}
+
+.percentLeft{
+    background-color: #8731DF
+}
+
+.percentRight{
+    background-color: #F1F4F9;
+}
+
+.barChart{
+    display: flex;
+    flex-direction: row;
+}
